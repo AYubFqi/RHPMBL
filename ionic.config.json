@@ -1,0 +1,7 @@
+{
+  "name": "RHP",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
