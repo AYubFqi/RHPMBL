@@ -1,0 +1,12 @@
+#zoomGrd #zoomList {
+  padding: 0 !important;
+}
+#zoomGrd #zoomList .zoomGrdRows {
+  margin-top: 0;
+  min-width: 1em;
+  padding: 1px 2px 0 10px;
+  border-bottom: 1px solid gray;
+}
+#zoomGrd #zoomList .zoomGrdRows:nth-child(even) {
+  background-color: rgb(240, 240, 240);
+}/*# sourceMappingURL=zoom.css.map */

@@ -1,0 +1,10 @@
+* {
+  --colB: #3299bb;
+  --colO: #e7ae64;
+}
+
+#cr_viewer {
+  padding: 5px !important;
+  background-color: rgb(162, 209, 224);
+  color: var(--ion-color-gris);
+}

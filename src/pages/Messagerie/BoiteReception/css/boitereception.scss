@@ -1,0 +1,73 @@
+@import "../../../../css/index.scss";
+#mailBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  .searching {
+    display: grid;
+    grid-template-columns: 2em auto 2em;
+    width: 90%;
+    height: 2em;
+    border-radius: 1em;
+    background-color: #ededed;
+    margin: 1em auto;
+    > input {
+      background-color: #ededed;
+      color: gray;
+      outline: none;
+      border: none;
+      padding-left: 5px;
+      font-size: 1em;
+    }
+  }
+  .result {
+    margin-top: 5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+}
+ion-modal#example-modal {
+  --width: fit-content;
+  --min-width: 90%;
+  --height: fit-content;
+  --border-radius: 6px;
+  --box-shadow: 0 28px 48px rgba(0, 0, 0, 0.4);
+  .request {
+    width: 70%;
+    margin: 10px auto;
+    padding: 10px;
+    /* background-color: #fff; */
+    border-radius: 8px;
+    font-weight: 200;
+    font-size: large;
+    cursor: pointer;
+    background-color: var(--colB);
+    color: white;
+  }
+}
+
+ion-modal#example-modal h5 {
+  margin: 0;
+  background-color: $CouleurRay1;
+  padding: 5px;
+  color: #fff;
+}
+
+ion-modal#example-modal ion-icon {
+  margin-right: 6px;
+
+  width: 48px;
+  height: 48px;
+
+  padding: 4px 0;
+
+  color: #aaaaaa;
+}
+
+ion-modal#example-modal .wrapper {
+  margin-bottom: 10px;
+}

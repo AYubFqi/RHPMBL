@@ -1,0 +1,42 @@
+@import "../../../css/index.scss";
+#speTextArea {
+  width: $defaultWidthSpe;
+  background-color: $defaultBgColor;
+  color: $Couleur;
+  height: 2 * $defaultHeightSpe;
+  margin: auto;
+  position: relative;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px dashed $Couleur;
+  .nombre {
+    text-align: right;
+  }
+  .TxtArea {
+    width: 82%;
+    margin: 10px auto 0 auto;
+    height: 1.4 * $defaultHeightSpe;
+    font-size: $FontSizeTitreLarge;
+    padding: 0 10px;
+    border: none;
+    &:focus {
+      outline: none;
+    }
+    &.hasvalue {
+      background-color: $BgCouleurInput;
+    }
+  }
+  h6 {
+    color: $Couleur;
+    font-size: $FontSizeTitreLarge;
+    top: 12px;
+    left: 15px;
+    position: absolute;
+  }
+  h6.hasvalue {
+    color: $CouleurRay1;
+    font-size: $FontSizeTitreSmall;
+    transform: translate(-10px, -24px);
+    transition: transform ease 0.09s;
+  }
+}

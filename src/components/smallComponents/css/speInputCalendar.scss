@@ -1,0 +1,46 @@
+.speDat {
+  color: var(--ion-color-gris);
+  width: 100%;
+  height: auto;
+  min-height: 5.2em;
+  position: relative;
+  display: flex;
+  align-items: center;
+  .contenuZoom {
+    margin-top: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    input {
+      font-size: 20px;
+      padding: 8px;
+      border: none;
+      &:focus {
+        outline: none;
+      }
+    }
+    ion-icon {
+      color: var(--ion-color-raytwo);
+      margin-right: 13px;
+      font-size: 25px;
+      img {
+        margin: auto;
+      }
+    }
+  }
+  h6 {
+    color: var(--ion-color-gray);
+    font-size: 20px;
+    top: 18px;
+    left: 15px;
+    position: absolute;
+    transition: transform ease 0.5s;
+  }
+  h6.hasvalue {
+    color: var(--ion-color-rayfirst);
+    font-size: 14px;
+    transform: translate(-10px, -25px);
+    transition: transform ease 0.4s;
+  }
+}

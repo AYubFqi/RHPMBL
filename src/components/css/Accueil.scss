@@ -1,0 +1,39 @@
+
+.recontainer{
+    background-color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    // height: 100%;
+    .Recemcard{
+        margin: 1em ;
+        background-color: #cccccc0a;
+        height: 7em;
+        width: 30%;
+        display: flex;
+        flex: 0 1 calc(45% - 1em);
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+        box-shadow: #9dcfdfb6  0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;;
+        .cardicon{
+            color: #0a84a9 ;
+            font-size: 60px;
+        }
+        
+        .cardtitle{
+            color: #0a84a9;
+            font-weight: 400;
+        }
+    }
+}
+.dash{
+    width: 100vw;
+    padding: 1.5rem;
+    margin: 0rem;
+    
+}

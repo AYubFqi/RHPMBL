@@ -1,0 +1,14 @@
+@import "../../../css/index.scss";
+#speCheckBox {
+  display: flex;
+  justify-content: start;
+  padding-left: 8px;
+  align-items: center;
+  height: $defaultHeightSpe;
+  width: $defaultWidthSpe;
+  border-bottom: 1px dashed $Couleur;
+  .speTitre {
+    font-size: $FontSizeTitreLarge;
+    color: $Couleur;
+  }
+}

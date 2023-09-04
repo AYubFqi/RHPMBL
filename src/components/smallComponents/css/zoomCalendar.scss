@@ -1,0 +1,12 @@
+ion-modal#appelCalendar {
+  --background: rgba(105, 96, 96, 0.3) !important;
+  --border-radius: 100px;
+  #ion-react-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  ion-datetime {
+    border-radius: 16px;
+  }
+}

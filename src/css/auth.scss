@@ -1,0 +1,183 @@
+* {
+  --colB: #eeeeeed7;
+  --colO: #3899B9;
+  --colC: #5EB975;
+}
+
+#auth {
+  background-image:url('./img/2.jpg');
+  color: var(--ion-color-gris);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  .ErreurConn {
+    width: 80%;
+    height: auto;
+    padding: 20px;
+    margin: auto;
+    color: #fff;
+    border-radius: 10px;
+    position: relative;
+    
+  }
+  .auth {
+    background: transparent !important;
+    margin: auto;
+    background-color: #fff;
+    padding: 2px;
+    height: auto;
+    width: auto;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    max-width: 350px;
+    max-height: 590px;
+    border-radius: 20px;
+    color: var(--ion-color-gris);
+  }
+  #connlist{
+    background: transparent !important;
+    margin-top: 1rem;
+    width: 100%;
+    padding: 1.5rem 1.5rem 0.2rem 1.5rem;
+  }
+  #connlistinput{
+    background: transparent !important;
+    margin-top: 0.5rem;
+    width: 100%;
+    padding: 0.5rem 0.1rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.7rem;
+  }
+  #connection{
+    margin-top: 0.5rem;
+    background: white;
+    border-radius: 4px;
+    width: 100%;
+    box-shadow: #6aafca 0px 0px 0px 1px;
+    height: 3.6rem;
+    
+  }
+  #loginSelect{
+    height: 3.6rem;
+  }
+
+  .version{
+    color: #5EB975;
+    font-size: medium;
+    font-weight: 400;
+  }
+  .logo {
+    left: 15px;
+    height: 9rem;
+    width: auto;
+    margin-top: 3rem;
+  }
+ 
+  ion-list {
+    width: 70%;
+    color: var(--ion-color-gris);
+    ion-item {
+      color: var(--ion-color-gris);
+    }
+  }
+
+  ion-select {
+    width: 100%;
+    justify-content: space-between;
+  }
+  #showPw {
+    margin: auto;
+  }
+  ion-icon :not(#showPw) {
+    margin-right: auto auto 5px auto;
+  }
+
+  #loginbtn,
+  #save {
+    
+    width: 85%;
+    height: auto;
+    margin: 1.5rem 1.5rem 0 1.5rem;
+    padding: 17px;
+    border-radius: 4px;
+    font-weight: 200;
+    font-size: large;
+    cursor: pointer;
+    background-color: #3899B9;
+    color: white;
+  }
+  #connexion,
+  #delete {
+    border: 2px solid #3899B9;
+    width: 85%;
+    height: auto;
+    margin: 0.5rem 1.5rem 0 1.5rem;
+    padding: 17px;
+    border-radius: 4px;
+    font-weight: 200;
+    font-size: large;
+    cursor: pointer;
+    background-color: #fff;
+    color: #3899B9;
+  }
+  #connexion,#delete >ion-router-link{
+    color: #3899B9;
+  }
+  .rememberMe {
+    width: 100%;
+    display: flex;
+    margin: 0 0 3rem 0;
+    font-style: bold;
+    align-items: center;
+    color: #3899B9;
+  }
+  .rememberMe > label {
+    margin-left: 10px;
+    color: black !important;
+  }
+  .rememberMe > ion-toggle {
+    margin-left: 10px;
+    color: black !important;
+  }
+  .lbl {
+    margin-left: 15px;
+  }
+  #connexion_autocomplete {
+    width: 13.5em;
+    max-width: 13.5em;
+    color: var(--ion-color-rayfirst);
+    background-color: #fff;
+  }
+  .errMsg {
+    color: red !important;
+    font-size: x-small;
+    width: 70%;
+  }
+  .errMsgHidden {
+    visibility: hidden;
+  }
+  .alerte {
+    height: 3.7em;
+    width: 17.2em;
+    /* border:1px solid #e7ae64; */
+    margin-bottom: 10px;
+  }
+  .forgotMyPwd {
+    font-size: x-small;
+    text-align: right;
+    width: 70%;
+    color: red;
+    cursor: pointer;
+  }
+}
+.action-sheet-group-cancel {
+  visibility: hidden !important;
+}
+.sc-ion-action-sheet-md.md {
+  color: var(--ion-color-rayfirst);
+}

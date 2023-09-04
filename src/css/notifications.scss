@@ -1,0 +1,46 @@
+.vl {
+    border-left: 3px dotted  gray;
+    height: 88vh;
+    position: absolute;
+    left: 2.5rem;
+    top: 1.9rem;
+    margin-left: -3px;
+  }
+ .calhour{
+    color: rgb(39, 58, 233);
+    padding-left: 1rem;
+    right: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+ }
+  .summery{
+    color: rgb(88, 88, 90);
+    padding-left: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+  }
+  .calform{
+    margin-top: 0.5rem;
+    border-bottom: 1px bold gray;
+    padding-left: 0.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .discription{
+    color: rgb(153, 150, 150);
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    
+  }
+ion-card{
+  margin-bottom: 1rem;
+}
+  .custom-icon {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 0.4rem;
+  }

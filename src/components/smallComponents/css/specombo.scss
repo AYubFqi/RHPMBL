@@ -1,0 +1,20 @@
+@import "../../../css/index.scss";
+
+#speCombo {
+  color: $Couleur;
+  height: 0.8 * $defaultHeightSpe;
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px dashed $Couleur;
+  .options {
+    color: $CouleurRay1;
+    &::placeholder {
+      color: black;
+    }
+  }
+  .MuiInputLabel-shrink {
+    color: $CouleurRay1 !important;
+  }
+}

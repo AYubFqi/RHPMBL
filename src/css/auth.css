@@ -1,0 +1,122 @@
+* {
+  --colB: #3299BB ;
+  --colO: #e7ae64 ;
+}
+
+#auth {
+  padding: 5px !important;
+  background-color: rgb(162, 209, 224);
+  color: var(--ion-color-gris);
+}
+#auth .auth {
+  margin: auto;
+  background-color: #fff;
+  padding: 2px;
+  height: auto;
+  width: auto;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  max-width: 350px;
+  max-height: 590px;
+  border-radius: 20px;
+  box-shadow: inset 0px 0px 20px var(--colB), 0px 0px 80px var(--colB);
+  color: var(--ion-color-gris);
+}
+#auth .logo {
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+#auth ion-list {
+  width: 70%;
+  color: var(--ion-color-gris);
+}
+#auth ion-list ion-item {
+  color: var(--ion-color-gris);
+}
+#auth ion-select {
+  width: 100%;
+  justify-content: space-between;
+}
+#auth #showPw {
+  margin: auto;
+}
+#auth ion-icon :not(#showPw) {
+  margin-right: auto auto 5px auto;
+}
+#auth #loginbtn, #auth #save {
+  /* border: 2px solid var(--colB); */
+  width: 70%;
+  margin: 30px 0 5px 0;
+  padding: 10px;
+  /* background-color: #fff; */
+  border-radius: 8px;
+  font-weight: 200;
+  font-size: large;
+  cursor: pointer;
+  background-color: var(--colB);
+  color: white;
+}
+#auth #connexion, #auth #delete {
+  border: 2px solid var(--colB);
+  width: 70%;
+  margin: 0 0 30px 0;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 8px;
+  font-weight: 200;
+  font-size: large;
+  color: var(--ion-color-rayfirst);
+  cursor: pointer;
+}
+#auth .rememberMe {
+  width: 100%;
+  display: flex;
+  margin-left: 80px;
+  margin-top: 10px;
+  /* justify-content: center; */
+  align-items: center;
+}
+#auth .rememberMe > label {
+  margin-left: 10px;
+  color: black !important;
+}
+#auth .lbl {
+  margin-left: 15px;
+}
+#auth #connexion_autocomplete {
+  width: 13.5em;
+  max-width: 13.5em;
+  color: var(--ion-color-rayfirst);
+}
+#auth .errMsg {
+  color: red !important;
+  font-size: x-small;
+  width: 70%;
+}
+#auth .errMsgHidden {
+  visibility: hidden;
+}
+#auth .alerte {
+  height: 3.7em;
+  width: 17.2em;
+  /* border:1px solid #e7ae64; */
+  margin-bottom: 10px;
+}
+#auth .forgotMyPwd {
+  font-size: x-small;
+  text-align: right;
+  width: 70%;
+  color: red;
+  cursor: pointer;
+}
+
+.action-sheet-group-cancel {
+  visibility: hidden !important;
+}
+
+.sc-ion-action-sheet-md.md {
+  color: var(--ion-color-rayfirst);
+}/*# sourceMappingURL=auth.css.map */
